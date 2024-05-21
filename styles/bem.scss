@@ -1,0 +1,37 @@
+.center-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.text-main {
+  font-family: 'Newbaskervilleexpodc', sans-serif;
+}
+
+.text-solid {
+  font-family: 'Island Moments', sans-serif;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-x {
+  text-align: center;
+}
+
+.text-transition {
+  cursor: pointer;
+  transition: color 1s cubic-bezier(.19,1,.22,1);
+
+  &:hover {
+    color: #a1907f  !important;
+  }
+}
